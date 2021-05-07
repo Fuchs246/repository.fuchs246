@@ -104,7 +104,7 @@
 	</assets>
     </extension>
 </addon>
-addon id="script.module.metadatautils"
+<addon id="script.module.metadatautils"
        name="Metadata and Artwork module"
        version="1.0.41"
        provider-name="marcelveldt and others">
