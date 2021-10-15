@@ -129,7 +129,7 @@
 </addon>
 <addon id="script.module.metadatautils"
        name="Metadata and Artwork module"
-       version="1.0.42"
+       version="1.0.43"
        provider-name="marcelveldt and others">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
