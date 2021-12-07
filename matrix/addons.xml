@@ -687,8 +687,7 @@ Version 1.0.37
 		<license>GPL v2.0</license>
 		<forum>https://forum.kodi.tv/showthread.php?tid=330749</forum>
 		<website>http://forum.kodi.tv/forumdisplay.php?fid=212</website>
-		<email/>
-		<source/>
+		<source>https://github.com/Fuchs246/repository.fuchs246/tree/main/matrix/skin.titan.mod.beta.matrix</source>
 		<assets>
 			<icon>icon.png</icon>
 			<fanart>fanart.jpg</fanart>
