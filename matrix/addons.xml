@@ -711,7 +711,7 @@ Version 1.0.37
         	</assets>
 	</extension>
 </addon>
-<addon id="skin.titan.mod.beta.test" version="19.1.22" name="T i t a n  M O D (BETA)" provider-name="marduk,fuchs2468,marcelveldt,mgonzales">
+<addon id="skin.titan" version="19.1.22" name="Titan" provider-name="marduk,fuchs2468,marcelveldt,mgonzales">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.embuary.helper" version="1.1.2"/>
