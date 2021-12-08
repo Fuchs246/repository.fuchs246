@@ -2,18 +2,7 @@
 <addon id="skin.titan" version="19.1.22" name="Titan" provider-name="marduk,fuchs2468,marcelveldt,mgonzales">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
-		<import addon="script.skinshortcuts" version="1.0.17"/>
-		<import addon="script.skin.helper.service" version="1.0.0"/>
-        <import addon="script.skin.helper.widgets" version="1.0.0"/>
-        <import addon="script.skin.helper.backgrounds" version="1.0.0"/>
-        <import addon="resource.images.studios.coloured" version="0.0.9"/>
-		<import addon="resource.images.studios.white" version="0.0.15"/>
-		<import addon="resource.images.languageflags.colour" version="0.0.4"/>
-		<import addon="resource.uisounds.titan.modern" version="1.0.0"/>
-        <import addon="resource.images.skinbackgrounds.titanium" version="1.0.0"/>
-        <import addon="resource.images.skinicons.wide" version="1.0.0"/>
-        <import addon="resource.images.backgroundoverlays.basic" version="1.0.0"/>
-	<import addon="script.embuary.helper" version="2.0.8"/>
+		<import addon="script.embuary.helper" version="2.0.8"/>
 	</requires>
 	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>
