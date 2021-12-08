@@ -714,6 +714,7 @@ Version 1.0.37
 <addon id="skin.titan" version="19.1.22" name="Titan" provider-name="marduk,fuchs2468,marcelveldt,mgonzales">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
+		<import addon="script.skinshortcuts" version="1.0.17"/>
 		<import addon="script.skin.helper.service" version="1.0.0"/>
         <import addon="script.skin.helper.widgets" version="1.0.0"/>
         <import addon="script.skin.helper.backgrounds" version="1.0.0"/>
