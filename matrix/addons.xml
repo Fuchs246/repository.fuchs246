@@ -651,7 +651,7 @@ Version 1.0.37
 </addon>
 <addon id="script.lastfmplaylistgeneratorPM"
        name="Last.FM Playlist Generator (Partymode)"
-       version="1.5.0"
+       version="1.5.1"
        provider-name="KikiGonzales">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
