@@ -1,5 +1,5 @@
 # Fuchs Repo
 
-Repo for Titan-Mod Matrix
+Repo for Titan-Mod
 
-Titan Mod for Matrix, including all dependencies for Skin Helper Service
+Titan Mod, including all dependencies for Skin Helper Service
