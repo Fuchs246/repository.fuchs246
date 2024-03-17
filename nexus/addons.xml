@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.fuchs246" name="Fuchs Repo" version="1.0.1" provider-name="fuchs246">
+<addon id="repository.fuchs246" name="Fuchs Repo" version="1.0.2" provider-name="fuchs246">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -10,10 +10,15 @@
 			<checksum>https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/matrix/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/matrix/</datadir>
 		</dir>
-		<dir minversion="20.0.0">
+		<dir minversion="20.0.0" maxversion="20.9.0">
 			<info>https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/nexus/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/nexus/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/nexus/</datadir>
+		</dir>
+		<dir minversion="20.9.1">
+			<info>https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/omega/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/omega/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/omega/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
@@ -567,7 +572,7 @@ v1.20.0
         </assets>
     </extension>
 </addon>
-<addon id="skin.titan.mod" version="20.1.26" name="Titan MOD" provider-name="marduk,fuchs2468,marcelveldt,mgonzales">
+<addon id="skin.titan.mod" version="20.1.27" name="Titan MOD" provider-name="marduk,fuchs2468,marcelveldt,mgonzales">
 	<requires>
 		<import addon="xbmc.gui" version="5.16.0"/>
 		<import addon="script.embuary.helper" version="1.1.2"/>
@@ -581,8 +586,8 @@ v1.20.0
         <import addon="resource.images.skinbackgrounds.titanium" version="1.0.0"/>
         <import addon="resource.images.skinicons.wide" version="1.0.0"/>
         <import addon="resource.images.backgroundoverlays.basic" version="1.0.0"/>
-		<import addon="resource.uisounds.titan.modern" version="1.0.0" optional="true"/>
-		<import addon="script.skin.helper.colorpicker" version="2.0.3" optional="true"/>
+		<import addon="resource.uisounds.titan.modern" version="1.0.0"/>
+		<import addon="script.skin.helper.colorpicker" version="2.0.3"/>
 	</requires>
 	<extension point="xbmc.gui.skin" defaultthemename="Textures.xbt" effectslowdown="1" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="1080i"/>

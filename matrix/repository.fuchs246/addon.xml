@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.fuchs246" name="Fuchs Repo" version="1.0.1" provider-name="fuchs246">
+<addon id="repository.fuchs246" name="Fuchs Repo" version="1.0.2" provider-name="fuchs246">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0"/>
 	</requires>
@@ -9,10 +9,15 @@
 			<checksum>https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/matrix/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/matrix/</datadir>
 		</dir>
-		<dir minversion="20.0.0">
+		<dir minversion="20.0.0" maxversion="20.9.0">
 			<info>https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/nexus/addons.xml</info>
 			<checksum>https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/nexus/addons.xml.md5</checksum>
 			<datadir zip="true">https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/nexus/</datadir>
+		</dir>
+		<dir minversion="20.9.1">
+			<info>https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/omega/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/omega/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/Fuchs246/repository.fuchs246/main/omega/</datadir>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
