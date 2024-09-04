@@ -572,7 +572,7 @@ v1.20.0
         </assets>
     </extension>
 </addon>
-<addon id="skin.titan.mod" version="21.1.28" name="Titan MOD" provider-name="marduk,fuchs2468,marcelveldt,mgonzales">
+<addon id="skin.titan.mod" version="21.1.29" name="Titan MOD" provider-name="marduk,fuchs2468,marcelveldt,mgonzales">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 		<import addon="script.embuary.helper" version="1.1.2"/>
